@@ -1,0 +1,20 @@
+/*styles.css*/
+
+.pink {
+    background-color: #FFC0CB;
+    font-family:Verdana, DejaVu Sans, sans-serif
+}
+
+#blue-style {
+    color: #0000FF;
+    font-size: 36px;
+}
+
+.increase-font {
+    font-size: 24px;
+}
+
+#green-style {
+    background-color: #90EE90;
+    font-weight: bold;
+}
