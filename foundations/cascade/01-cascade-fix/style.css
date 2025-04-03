@@ -8,13 +8,32 @@ body {
   font-weight: 800;
 }
 
+
+.para {
+  font-size: 22px;
+}
+
+/*I switched the order of para class and small-para class, both are applied to the second paragraph element
+and I want the element to have the styling of the class small-para so I place this last*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+
+/*Added
+.para.small-para {
+  font-size: 16px;
+}
+*/
+
+
+/*I switched the order of confirm class and button class, both are applied to the first button element
+and I want the element to have the styling of the class confirm so I place this last*/
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -23,20 +42,16 @@ body {
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+div.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
